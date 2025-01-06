@@ -1,0 +1,106 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .stores-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .stores-table th, .stores-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .stores-table th {
+    background: linear-gradient(to right, #71208c, #df7fff);
+    
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .stores-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .stores-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .no-stores {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .edit-form input {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-form button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .stores-table button {
+    margin: 5px;
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .stores-table button:hover {
+    background-color: #d32f2f;
+  }
+
+
+  .search-box {
+    margin-bottom: 20px;
+
+  }
+  
+  .search-box input {
+    width: 30%;
+   margin-left: 33%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .search-box input::placeholder {
+    color: #4e4e4e;
+
+  }
+  

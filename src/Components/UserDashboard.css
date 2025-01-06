@@ -1,0 +1,115 @@
+/* Container */
+.container1 {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  h1{
+    text-shadow: #333;
+  }
+  
+  /* Search input field */
+  .search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Table */
+  .stores-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .stores-table th,
+  .stores-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .stores-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .stores-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* No stores available message */
+  .no-stores {
+    text-align: center;
+    font-size: 1.2em;
+    color: #999;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 244%;
+  }
+
+  .back-button1 {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, rgb(66, 17, 66), rgb(199, 22, 119));
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 74%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .back-button1:hover {
+    background: linear-gradient(to right, rgb(125, 34, 105), rgb(30, 121, 160));
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .back-button1:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(50, 206, 249, 0.8);
+  }
+
+
+  .back-button2 {
+   float: right;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, rgb(66, 17, 66), rgb(199, 22, 119));
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -60px;
+    /* margin-bottom: 20px; */
+    margin-left: 40%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .back-button2:hover {
+    background: linear-gradient(to right, rgb(125, 34, 105), rgb(30, 121, 160));
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .back-button2:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(50, 206, 249, 0.8);
+  }
+  hr{
+    height: 2px;
+    background-color: #333;
+  }
